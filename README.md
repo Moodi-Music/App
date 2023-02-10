@@ -1,4 +1,4 @@
-# Moodi App
+# Moodi
 
 
 <h1>Hi</h1>
