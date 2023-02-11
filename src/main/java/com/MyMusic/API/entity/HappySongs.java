@@ -14,9 +14,8 @@ import lombok.Setter;
 @Entity
 @Table(name = "happy_songs")
 public class HappySongs {
-
     @Id
-    @GeneratedValue (strategy = GenerationType.IDENTITY) // This will auto generate the id
+    @GeneratedValue (strategy = GenerationType.IDENTITY) // This will auto generate the id for us.
     private int Id;
 
     @Column(nullable = false)
