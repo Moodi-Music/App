@@ -6,6 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="b088f35e-70f1-4274-84d3-70e4f6dd90f0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moodi/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Moodi/src/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moodi/target/classes/com/Music/Moodi/Controller/HappySongsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Moodi/src/target/classes/com/Music/Moodi/Controller/HappySongsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moodi/target/classes/com/Music/Moodi/Entity/HappySongs.class" beforeDir="false" afterPath="$PROJECT_DIR$/Moodi/src/target/classes/com/Music/Moodi/Entity/HappySongs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moodi/target/classes/com/Music/Moodi/MoodiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/Moodi/src/target/classes/com/Music/Moodi/MoodiApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moodi/target/classes/com/Music/Moodi/Repository/HappySongsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/Moodi/src/target/classes/com/Music/Moodi/Repository/HappySongsRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moodi/target/classes/com/Music/Moodi/Service/HappySongsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Moodi/src/target/classes/com/Music/Moodi/Service/HappySongsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moodi/target/classes/com/Music/Moodi/Service/Impl/HappySongsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Moodi/src/target/classes/com/Music/Moodi/Service/Impl/HappySongsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moodi/target/test-classes/com/Music/Moodi/MoodiApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/Moodi/src/target/test-classes/com/Music/Moodi/MoodiApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +30,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="SOFT" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -50,6 +59,26 @@
     &quot;last_directory_selection&quot;: &quot;/Users/mac/Downloads/App/Moodi/src/main/java/com/Music/Moodi&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Moodi/src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="App" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,6 +88,14 @@
       <option name="presentableId" value="Default" />
       <updated>1676153611881</updated>
     </task>
+    <task id="LOCAL-00001" summary="fixup! Regular update">
+      <created>1676222709400</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676222709400</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -72,7 +109,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="Updates" />
                       </list>
                     </value>
                   </entry>
@@ -86,6 +123,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="fixup! Regular update" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixup! Regular update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
