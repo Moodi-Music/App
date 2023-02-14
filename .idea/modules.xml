@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/App.iml" filepath="$PROJECT_DIR$/.idea/App.iml" />
       <module fileurl="file://$PROJECT_DIR$/Moodi/Moodi.iml" filepath="$PROJECT_DIR$/Moodi/Moodi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Moodi/demo.iml" filepath="$PROJECT_DIR$/Moodi/demo.iml" />
     </modules>
   </component>
 </project>

@@ -18,4 +18,9 @@ public interface HappySongsService {
 
 
     HappySongs updateHappySongs(HappySongs happySongs);
+
+
+    HappySongs getHappySongsById(Long id);
+
+    void deleteHappySongsById(Long id);
 }
