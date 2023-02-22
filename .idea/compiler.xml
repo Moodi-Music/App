@@ -3,6 +3,9 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
+<<<<<<< HEAD
+    </annotationProcessing>
+=======
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -21,5 +24,6 @@
       <module name="Moodi" options="-parameters" />
       <module name="demo" options="-parameters" />
     </option>
+>>>>>>> afd9f81c15e109faf881eba5deff1063a94d1127
   </component>
 </project>
