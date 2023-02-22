@@ -7,6 +7,7 @@ import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 
 @Service
@@ -31,4 +32,21 @@ public class HappySongsServiceImpl implements HappySongsService {
     public HappySongs updateHappySongs(HappySongs happySongs) {
         return happySongsRepository.save(happySongs);
     }
+
+    @Override
+    public HappySongs getHappySongsById(Long id) {
+        Optional<HappySongs> happySongs = happySongsRepository.findById(id);
+        return happySongs.get();
+    }
+
+    @Override
+    public void deleteHappySongsById(Long id) {
+
+        happySongsRepository.deleteById(id);
+
+    }
+
+
+
+
 }

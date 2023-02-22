@@ -38,6 +38,14 @@ public class HappySongsController {
         return new ResponseEntity<>(savedHappySongs, HttpStatus.CREATED);
     }
 
+    //Now we will create Get HappySongs by Id.
+    //http://localhost:8080/api/happySongs/getHappySongsById/1
+    @GetMapping ("/{id}")
+    public ResponseEntity<HappySongs> getHappySongsById(@PathVariable Long id){
+        HappySongs savedHappySongs = happySongsService.getHappySongsById(id);
+        return new ResponseEntity<>(savedHappySongs, HttpStatus.CREATED);
+    }
+
 
     //Now we create PutMapping for updating HappySongs
     //http://localhost:8080/api/happySongs/updateHappySongs
@@ -45,6 +53,14 @@ public class HappySongsController {
     public ResponseEntity<HappySongs> updateHappySongs(@RequestBody HappySongs happySongs){
         HappySongs savedHappySongs = happySongsService.updateHappySongs(happySongs);
         return new ResponseEntity<>(savedHappySongs, HttpStatus.CREATED);
+    }
+
+    //Now we create DeleteMapping for deleting HappySongs
+    //http://localhost:8080/api/happySongs/deleteHappySongs/1
+    @DeleteMapping ("/delete/{id}")
+    public ResponseEntity<String> deleteHappySongs(@PathVariable Long id){
+        happySongsService.deleteHappySongsById(id);
+        return new ResponseEntity<>("HappySongs deleted", HttpStatus.OK);
     }
 
 }
